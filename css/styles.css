@@ -1,0 +1,187 @@
+:root {
+  --bgc-first: #f5f5f5;
+  --bgc-second: #f5f4fa;
+  --bgc-third: #2f303a;
+  --color-text: #757575;
+  --color-heading: #212121;
+  --color-brand: #000000;
+  --color-accent: #2196f3;
+  --color-revers: #ffffff;
+}
+
+body {
+  color: var(--color-text);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--color-brand);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-revers {
+  color: var(--color-revers);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.span {
+  color: var(--color-accent);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  color: var(--color-heading);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-footer {
+  color: var(--color-revers);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: var(--bgc-third);
+}
+
+.hero-title {
+  color: var(--color-revers);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--color-revers);
+  background-color: var(--color-accent);
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.button-portfolio {
+  color: var(--color-heading);
+  background-color: var(--bgc-second);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button-portfolio:hover {
+  text-decoration: underline;
+}
+
+.heading-title {
+  color: var(--color-heading);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.heading-subtitle {
+  color: var(--color-heading);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.headline {
+  color: var(--color-heading);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  color: var(--color-heading);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-caption {
+  color: var(--color-heading);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-advantage {
+  background-color: var(--bgc-first);
+}
+
+.section-work {
+  background-color: var(--bgc-first);
+}
+
+.section-team {
+  background-color: var(--bgc-second);
+}
+
+.section-filtre {
+  background-color: var(--bgc-first);
+}
+
+.section-portfolio {
+  background-color: var(--bgc-first);
+}
+
+.footer {
+  background-color: var(--bgc-third);
+}
