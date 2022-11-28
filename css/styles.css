@@ -58,6 +58,40 @@ ul {
   text-decoration: none;
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:focus {
+  text-decoration: underline;
+}
+
+.link-mail {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.link-mail:hover {
+  text-decoration: underline;
+}
+
+.link-mail:focus {
+  text-decoration: underline;
+}
+
+.link-tel {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.link-tel:hover {
+  text-decoration: underline var(--color-accent);
+}
+
+.link-tel:focus {
+  text-decoration: underline var(--color-accent);
+}
+
 .link-footer {
   color: var(--color-revers);
   font-size: 14px;
@@ -68,7 +102,7 @@ ul {
 }
 
 .link-footer:hover {
-  text-decoration: underline;
+  text-decoration: underline 1.5px var(--color-accent);
 }
 
 .hero-section {
@@ -109,6 +143,14 @@ ul {
 }
 
 .button-portfolio:hover {
+  color: var(--color-revers);
+  background-color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.button-portfolio:focus {
+  color: var(--color-revers);
+  background-color: var(--color-accent);
   text-decoration: underline;
 }
 
