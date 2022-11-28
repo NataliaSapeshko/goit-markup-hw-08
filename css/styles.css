@@ -59,24 +59,24 @@ ul {
 }
 
 .link:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .link:focus {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .link-mail {
-  color: var(--color-accent);
+  color: var(--color-text);
   text-decoration: none;
 }
 
 .link-mail:hover {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .link-mail:focus {
-  text-decoration: underline;
+  color: var(--color-accent);
 }
 
 .link-tel {
@@ -85,11 +85,11 @@ ul {
 }
 
 .link-tel:hover {
-  text-decoration: underline var(--color-accent);
+  color: var(--color-accent);
 }
 
 .link-tel:focus {
-  text-decoration: underline var(--color-accent);
+  color: var(--color-accent);
 }
 
 .link-footer {
@@ -102,7 +102,7 @@ ul {
 }
 
 .link-footer:hover {
-  text-decoration: underline 1.5px var(--color-accent);
+  color: var(--color-accent);
 }
 
 .hero-section {
