@@ -107,6 +107,10 @@ img {
   text-transform: uppercase;
 }
 
+.hero-title:hover {
+  text-decoration: underline var(--color-accent);
+}
+
 .button {
   display: block;
   margin-left: auto;
@@ -200,6 +204,7 @@ img {
 }
 
 .heading-text {
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -254,6 +259,7 @@ img {
 }
 
 .button-portfolio {
+  padding: 6px 22px;
   border: 1px solid transparent;
   border-radius: 4px;
   color: var(--color-heading);
