@@ -85,11 +85,14 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* section-hero */
 
 .hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--bgc-third);
 }
 
@@ -200,12 +203,16 @@ img {
   text-align: center;
 }
 
+.team-list-item {
+  border: 1px solid var(--color-border);
+  border-radius: 0 0 4px 4px;
+}
+
 /* section-filter */
 
 .section-filtre {
   padding-top: 94px;
   padding-bottom: 34px;
-  background-color: var(--bgc-first);
 }
 
 .filter-list {
@@ -218,7 +225,6 @@ img {
 
 .section-portfolio {
   padding-bottom: 94px;
-  background-color: var(--bgc-first);
 }
 
 .portfolio-list {
