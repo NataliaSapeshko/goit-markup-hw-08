@@ -131,7 +131,6 @@ img {
 
 .section-advantage {
   padding: 94px 0;
-  background-color: var(--bgc-first);
 }
 
 .advantage-list {
@@ -164,7 +163,6 @@ img {
 
 .section-work {
   padding: 0 0 94px;
-  background-color: var(--bgc-first);
 }
 
 .work-list {
