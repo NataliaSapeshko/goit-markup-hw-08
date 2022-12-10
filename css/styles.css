@@ -209,6 +209,7 @@ img {
 .team-list-item {
   border: 1px solid var(--color-border);
   border-radius: 0 0 4px 4px;
+  background-color: #fff;
 }
 
 /* section-filter */
