@@ -30,10 +30,10 @@
             >
             <ul class="header-list">
               <li>
-                <a href="./index.html" class="link">Студія</a>
+                <a href="./index.html" class="link link-main">Студія</a>
               </li>
               <li>
-                <a href="./portfolio.html" class="link link-main">Портфоліо</a>
+                <a href="./portfolio.html" class="link">Портфоліо</a>
               </li>
               <li>
                 <a href="#" class="link">Контакти</a>
@@ -42,10 +42,20 @@
           </nav>
           <ul class="header-link">
             <li>
-              <a href="#" class="link-mail">info@devstudio.com</a>
+              <div class="header-link-item">
+                <svg class="header-link-svg" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                <a href="#" class="link-mail">info@devstudio.com</a>
+              </div>
             </li>
             <li>
-              <a href="#" class="link-tel">+38 096 111 11 11</a>
+              <div class="header-link-item">
+                <svg class="header-link-svg" width="10" height="16">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                <a href="#" class="link-tel">+38 096 111 11 11</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -77,7 +87,7 @@
       <section class="section-portfolio">
         <div class="container">
           <ul class="portfolio-list">
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-1.jpg"
                 alt="три фото посміхаючихся осіб"
@@ -88,7 +98,7 @@
                 <p class="portfolio-text">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-2.jpg"
                 alt="двоє чоловіків грають у баскетбол"
@@ -99,7 +109,7 @@
                 <p class="portfolio-text">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-3.jpg"
                 alt="риба та напис the seafood restaurant"
@@ -110,14 +120,14 @@
                 <p class="portfolio-text">Додаток</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img src="./images/portfolio-4.jpg" alt="навушники" width="370" />
               <div class="portfolio-item">
                 <h2 class="headline">Проєкт Prime</h2>
                 <p class="portfolio-text">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-5.jpg"
                 alt="дві коробки"
@@ -128,7 +138,7 @@
                 <p class="portfolio-text">Додаток</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-6.jpg"
                 alt="монітор комп'ютера"
@@ -139,7 +149,7 @@
                 <p class="portfolio-text">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-7.jpg"
                 alt="розгорнута книга"
@@ -150,7 +160,7 @@
                 <p class="portfolio-text">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-8.jpg"
                 alt="бірка з написом"
@@ -161,7 +171,7 @@
                 <p class="portfolio-text">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-list-item">
               <img
                 src="./images/portfolio-9.jpg"
                 alt="особа працює за ноутбуком"
@@ -178,32 +188,65 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logo-revers">
-          <span class="span">Web</span>Studio</a
-        >
-        <address class="adress">
-          <ul>
-            <li>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="link-footer"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="link-footer"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="link-footer"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer-content">
+          <div>
+            <a href="./index.html" class="logo-revers">
+              <span class="span">Web</span>Studio</a
+            >
+            <address class="adress">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    class="link-footer"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:info@devstudio.com" class="link-footer"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+380961111111" class="link-footer"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div>
+            <p class="text-join">приєднуйтесь</p>
+            <ul class="footer-list-sosials">
+              <li class="footer-list-item">
+                <a class="footer-list-icon" href="#"
+                  ><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-icon" href="#"
+                  ><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-icon" href="#"
+                  ><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+              <li class="footer-list-item">
+                <a class="footer-list-icon" href="#"
+                  ><svg width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
