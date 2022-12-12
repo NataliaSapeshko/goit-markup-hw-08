@@ -83,6 +83,24 @@ img {
   text-decoration: none;
 }
 
+.link {
+  color: var(--color-heading);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-accent);
+}
+
+.link-main {
+  color: var(--color-accent);
+}
+
 .header-link {
   display: flex;
   justify-content: space-between;
@@ -92,40 +110,17 @@ img {
 
 .header-link-item {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
-}
-
-.header-link-svg {
-  fill: var(--color-text);
-}
-
-.header-link-svg:hover {
-  fill: var(--color-accent);
-}
-
-.link-mail {
-  color: var(--color-text);
   text-decoration: none;
+  color: var(--color-text);
+  fill: currentColor;
   font-weight: 500;
   font-size: 14px;
 }
 
-.link-mail:hover,
-.link-mail:focus {
-  color: var(--color-accent);
-}
-
-.link-tel {
-  color: var(--color-text);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.link-tel:hover,
-.link-tel:focus {
+.header-link-item:hover,
+.header-link-item:focus {
   color: var(--color-accent);
 }
 
@@ -484,27 +479,4 @@ img {
 .footer-list-icon:hover,
 .footer-list-icon:focus {
   background-color: var(--color-accent);
-}
-
-/* link */
-
-.link {
-  color: var(--color-heading);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: var(--color-accent);
-}
-
-.link:focus {
-  color: var(--color-accent);
-}
-
-.link-main {
-  color: var(--color-accent);
 }
