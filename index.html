@@ -66,7 +66,9 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button class="button" type="button">Замовити послугу</button>
+          <button class="button" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="section-advantage">
@@ -127,7 +129,7 @@
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work-list">
-            <li>
+            <li class="work-list-item">
               <a href="#">
                 <img
                   src="./images/img1-komp.jpg"
@@ -135,8 +137,9 @@
                   width="370"
                 />
               </a>
+              <p class="work-list-text">Десктопні додатки</p>
             </li>
-            <li>
+            <li class="work-list-item">
               <a href="#">
                 <img
                   src="./images/img2-tel.jpg"
@@ -144,8 +147,9 @@
                   width="370"
                 />
               </a>
+              <p class="work-list-text">Мобільні додатки</p>
             </li>
-            <li>
+            <li class="work-list-item">
               <a href="#">
                 <img
                   src="./images/img3-tab.jpg"
@@ -153,6 +157,7 @@
                   width="370"
                 />
               </a>
+              <p class="work-list-text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -293,32 +298,32 @@
           <h2 class="section-title">Постійні клієнти</h2>
           <ul class="cliants-list">
             <li class="cliants-list-item">
-              <svg class="cliants-list-icon">
+              <svg>
                 <use href="./images/icons.svg#icon-Logo-first"></use>
               </svg>
             </li>
             <li class="cliants-list-item">
-              <svg class="cliants-list-icon">
+              <svg>
                 <use href="./images/icons.svg#icon-Logo-second"></use>
               </svg>
             </li>
             <li class="cliants-list-item">
-              <svg class="cliants-list-icon">
+              <svg>
                 <use href="./images/icons.svg#icon-Logo-third"></use>
               </svg>
             </li>
             <li class="cliants-list-item">
-              <svg class="cliants-list-icon">
+              <svg>
                 <use href="./images/icons.svg#icon-Logo-forth"></use>
               </svg>
             </li>
             <li class="cliants-list-item">
-              <svg class="cliants-list-icon">
+              <svg>
                 <use href="./images/icons.svg#icon-Logo-fifth"></use>
               </svg>
             </li>
             <li class="cliants-list-item">
-              <svg class="cliants-list-icon">
+              <svg>
                 <use href="./images/icons.svg#icon-Logo-sixth"></use>
               </svg>
             </li>
@@ -389,5 +394,16 @@
         </div>
       </div>
     </footer>
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="button-modal" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
