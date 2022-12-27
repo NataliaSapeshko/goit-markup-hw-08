@@ -625,9 +625,6 @@ img {
   width: 528px;
   height: 581px;
   padding: 40px;
-  display: flex;
-  justify-content: right;
-  align-items: flex-start;
   background-color: var(--color-revers);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -761,10 +758,10 @@ img {
 }
 
 .button-checkbox {
+  display: block;
   width: 200px;
   height: 50px;
-  margin-left: 120px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   background-color: var(--color-accent);
   box-shadow: 0px 4px 4px var(--color-box-shadow);
   border-radius: 4px;
