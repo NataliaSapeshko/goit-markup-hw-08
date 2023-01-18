@@ -2,6 +2,10 @@
 
 .section-work {
     padding: 0 0 94px;
+
+    @media (max-width: 1199px) {
+        display: none;
+    }
 }
 
 .work-card {
