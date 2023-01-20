@@ -58,7 +58,7 @@
               >
             </li>
           </ul>
-          <button class="header__burger" type="button">
+          <button class="header__burger js-open-menu" type="button">
             <svg width="24" height="16">
               <use href="./images/icons.svg#icon-menu"></use>
             </svg>
@@ -139,6 +139,10 @@
             <li class="work-card__item">
               <a href="#">
                 <img
+                  srcset="
+                    ./images/img1-komp.jpg    1x,
+                    ./images/img1-komp@2x.jpg 2x
+                  "
                   src="./images/img1-komp.jpg"
                   alt="особа працює за комп'ютером"
                   width="370"
@@ -149,6 +153,7 @@
             <li class="work-card__item">
               <a href="#">
                 <img
+                  srcset="./images/img2-tel.jpg 1x, ./images/img2-tel@2x.jpg 2x"
                   src="./images/img2-tel.jpg"
                   alt="особа телефонує"
                   width="370"
@@ -159,6 +164,7 @@
             <li class="work-card__item">
               <a href="#">
                 <img
+                  srcset="./images/img3-tab.jpg 1x, ./images/img3-tab@2x.jpg 2x"
                   src="./images/img3-tab.jpg"
                   alt="особа працює на планшеті"
                   width="370"
@@ -176,6 +182,10 @@
             <li class="team-card__item">
               <img
                 class="team-card__img"
+                srcset="
+                  ./images/igor-demyanenko.jpg    1x,
+                  ./images/igor-demyanenko@2x.jpg 2x
+                "
                 src="./images/igor-demyanenko.jpg"
                 alt="Ігор Дем'яненко"
                 width="270"
@@ -208,6 +218,10 @@
             <li class="team-card__item">
               <img
                 class="team-card__img"
+                srcset="
+                  ./images/olha-repina.jpg    1x,
+                  ./images/olha-repina@2x.jpg 2x
+                "
                 src="./images/olha-repina.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
@@ -240,6 +254,10 @@
             <li class="team-card__item">
               <img
                 class="team-card__img"
+                srcset="
+                  ./images/mykola-tarasov.jpg    1x,
+                  ./images/mykola-tarasov@2x.jpg 2x
+                "
                 src="./images/mykola-tarasov.jpg"
                 alt="Микола Тарасов"
                 width="270"
@@ -272,6 +290,10 @@
             <li class="team-card__item">
               <img
                 class="team-card__img"
+                srcset="
+                  ./images/myhailo-ermakov.jpg    1x,
+                  ./images/myhailo-ermakov@2x.jpg 2x
+                "
                 src="./images/myhailo-ermakov.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
@@ -342,66 +364,69 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="footer__content">
-          <div>
-            <a href="./index.html" class="logo logo-revers">
-              <span class="logo__span">Web</span>Studio</a
-            >
-            <address class="address">
-              <ul>
-                <li>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    class="address__link"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
+          <div class="footer__wrapper">
+            <div>
+              <a href="./index.html" class="logo logo-revers">
+                <span class="logo__span">Web</span>Studio</a
+              >
+              <address class="address">
+                <ul>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      class="address__link"
+                      >м. Київ, пр-т Лесі Українки, 26</a
+                    >
+                  </li>
+                  <li>
+                    <a href="mailto:info@devstudio.com" class="address__link"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:+380961111111" class="address__link"
+                      >+38 096 111 11 11</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div>
+              <p class="footer__text">приєднуйтесь</p>
+              <ul class="list-socials">
+                <li class="list-socials__item">
+                  <a class="list-socials__icon" href="#"
+                    ><svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use></svg
+                  ></a>
                 </li>
-                <li>
-                  <a href="mailto:info@devstudio.com" class="address__link"
-                    >info@devstudio.com</a
-                  >
+                <li class="list-socials__item">
+                  <a class="list-socials__icon" href="#"
+                    ><svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use></svg
+                  ></a>
                 </li>
-                <li>
-                  <a href="tel:+380961111111" class="address__link"
-                    >+38 096 111 11 11</a
-                  >
+                <li class="list-socials__item">
+                  <a class="list-socials__icon" href="#"
+                    ><svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use></svg
+                  ></a>
+                </li>
+                <li class="list-socials__item">
+                  <a class="list-socials__icon" href="#"
+                    ><svg width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use></svg
+                  ></a>
                 </li>
               </ul>
-            </address>
+            </div>
           </div>
-          <div>
-            <p class="footer__text">приєднуйтесь</p>
-            <ul class="list-socials">
-              <li class="list-socials__item">
-                <a class="list-socials__icon" href="#"
-                  ><svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-instagram"></use></svg
-                ></a>
-              </li>
-              <li class="list-socials__item">
-                <a class="list-socials__icon" href="#"
-                  ><svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-facebook"></use></svg
-                ></a>
-              </li>
-              <li class="list-socials__item">
-                <a class="list-socials__icon" href="#"
-                  ><svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-twitter"></use></svg
-                ></a>
-              </li>
-              <li class="list-socials__item">
-                <a class="list-socials__icon" href="#"
-                  ><svg width="20" height="20">
-                    <use href="./images/icons.svg#icon-linkedin"></use></svg
-                ></a>
-              </li>
-            </ul>
-          </div>
+
           <div>
             <p class="footer__text">Підпишіться на розсилку</p>
             <form class="form-subscribe">
@@ -422,9 +447,58 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
+    <!-- Mobile-menu -->
+    <div class="mobile-menu js-menu-container">
+      <button class="mobile-menu__button js-close-menu" type="button">
+        <svg width="40" height="40">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu__list">
+        <li>
+          <a href="./index.html" class="mobile-menu__link">Студія</a>
+        </li>
+        <li>
+          <a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a>
+        </li>
+        <li>
+          <a href="#" class="mobile-menu__link">Контакти</a>
+        </li>
+      </ul>
+      <ul class="mobile-menu__contacts">
+        <li>
+          <a class="mobile-menu__contacts-item" href="#">+38 096 111 11 11</a>
+        </li>
+        <li>
+          <a class="mobile-menu__contacts-item" href="#">info@devstudio.com </a>
+        </li>
+      </ul>
+      <ul class="mobile-menu__socials">
+        <li>
+          <svg width="85" height="22">
+            <use href="./images/icons.svg#icon-Instagram"></use>
+          </svg>
+        </li>
+        <li>
+          <svg width="59" height="22">
+            <use href="./images/icons.svg#icon-Twitter"></use>
+          </svg>
+        </li>
+        <li>
+          <svg width="81" height="22">
+            <use href="./images/icons.svg#icon-Facebook"></use>
+          </svg>
+        </li>
+        <li>
+          <svg width="72" height="22">
+            <use href="./images/icons.svg#icon-LinkedIn"></use>
+          </svg>
+        </li>
+      </ul>
+    </div>
     <!-- Modal -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__button" data-modal-close>
           <svg width="11" height="11">
@@ -504,7 +578,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-  </body>
-</html> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

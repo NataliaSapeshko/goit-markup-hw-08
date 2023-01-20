@@ -19,6 +19,9 @@
 }
 
     &__burger {
+        display: inline-flex;
+        margin: 0;
+        padding: 0;
         border: 1px solid transparent;
             cursor: pointer;
             background-color: inherit;
